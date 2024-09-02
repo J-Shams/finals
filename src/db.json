@@ -1,0 +1,107 @@
+{
+    "todo": [
+      {
+        "id": "1",
+        "name": "Shams Air | 2024-05-23",
+        "city": "СОСТОЯЛСЯ ПЕРВЫЙ РЕЙС ДУШАНБЕ-ТБИЛИСИ"
+      },
+      {
+        "id": "2",
+        "name": "Shams Air | 2024-05-15",
+        "city": "НОВЫЙ РЕЙС. ДУШАНБЕ-ТБИЛИСИ"
+      },
+      {
+        "id": "3",
+        "name": "Shams Air | 2024-05-03",
+        "city": "«ШАМС ЭЙР ОТКРЫВАЕТ РЕЙС ИЗ ХУДЖАНДА В УРУМЧИ"
+      },
+      {
+        "id": "4",
+        "name": "Shams Air | 2024-04-11",
+        "city": "ТУРЦИЯ ВВЕЛА ВИЗОВЫЙ РЕЖИМ В ОТНОШЕНИИ ГРАЖДАН РТ"
+      },
+      {
+        "id": "5",
+        "name": "Shams Air | 2024-04-05",
+        "city": "В «ШАМС ЭЙР ПРОШЛА ВСТРЕЧА С ПОСЛОМ РЕСПУБЛИКИ КОРЕЯ В РТ"
+      },
+      {
+        "id": "6",
+        "name": "Shams Air | 2024-04-01",
+        "city": "«ШАМС ЭЙР ПРОШЛА ОЧЕРЕДНОЙ АУДИТ IOSA"
+      }
+    ],
+    "news": [
+        {
+            "id": "7",
+            "img": "https://th.bing.com/th/id/R.16cd4485fa9f202d4f74524ea62299d5?rik=TI92INqplBQYog&pid=ImgRaw&r=0",
+            "name":"Shams Air | 26-06-2024",
+            "desc": "СОСТОЯЛСЯ ПЕРВЫЙ РЕЙС ДУШАНБЕ-ТБИЛИСИ"
+        },
+        {
+            "id": "8",
+            "img": "https://samolets.com/wp-content/uploads/2019/10/boeing-737-300-ey-545-somon-air2.jpg",
+            "name":"Shams Air | 23-05-2024",
+            "desc": "«ШАМС ЭЙР» ВОЗОБНОВЛЯЕТ ПОЛЁТ"
+        },
+        {
+            "id": "9",
+            "img": "https://th.bing.com/th/id/R.64adfbca69e9549a325fd9e89efde230?rik=r%2f391QOplFseSw&pid=ImgRaw&r=0",
+            "name":"Shams Air | 15-05-2024",
+            "desc": "НОВЫЙ РЕЙС. ДУШАНБЕ-ТБИЛИСИ"
+        },
+        {
+            "id": "7",
+            "img": "https://th.bing.com/th/id/R.16cd4485fa9f202d4f74524ea62299d5?rik=TI92INqplBQYog&pid=ImgRaw&r=0",
+            "name":"Shams Air | 26-06-2024",
+            "desc": "СОСТОЯЛСЯ ПЕРВЫЙ РЕЙС ДУШАНБЕ-ТБИЛИСИ"
+        },
+        {
+            "id": "8",
+            "img": "https://samolets.com/wp-content/uploads/2019/10/boeing-737-300-ey-545-somon-air2.jpg",
+            "name":"Shams Air | 23-05-2024",
+            "desc": "«ШАМС ЭЙР» ВОЗОБНОВЛЯЕТ ПОЛЁТ"
+        },
+        {
+            "id": "9",
+            "img": "https://th.bing.com/th/id/R.64adfbca69e9549a325fd9e89efde230?rik=r%2f391QOplFseSw&pid=ImgRaw&r=0",
+            "name":"Shams Air | 15-05-2024",
+            "desc": "НОВЫЙ РЕЙС. ДУШАНБЕ-ТБИЛИСИ"
+        },
+        {
+            "id": "7",
+            "img": "https://th.bing.com/th/id/R.16cd4485fa9f202d4f74524ea62299d5?rik=TI92INqplBQYog&pid=ImgRaw&r=0",
+            "name":"Shams Air | 26-06-2024",
+            "desc": "СОСТОЯЛСЯ ПЕРВЫЙ РЕЙС ДУШАНБЕ-ТБИЛИСИ"
+        },
+        {
+            "id": "8",
+            "img": "https://samolets.com/wp-content/uploads/2019/10/boeing-737-300-ey-545-somon-air2.jpg",
+            "name":"Shams Air | 23-05-2024",
+            "desc": "«ШАМС ЭЙР» ВОЗОБНОВЛЯЕТ ПОЛЁТ"
+        },
+        {
+            "id": "9",
+            "img": "https://th.bing.com/th/id/R.64adfbca69e9549a325fd9e89efde230?rik=r%2f391QOplFseSw&pid=ImgRaw&r=0",
+            "name":"Shams Air | 15-05-2024",
+            "desc": "НОВЫЙ РЕЙС. ДУШАНБЕ-ТБИЛИСИ"
+        }
+    ],
+    "flights": [
+        {
+          "id": "1",
+          "from": "Dushanbe, Tajikistan",
+          "to": "Tbilisi, Georgia"
+        },
+        {
+          "id": "2",
+          "from": "Khujand, Tajikistan",
+          "to": "Urumqi, China"
+        },
+        {
+          "id": "3",
+          "from": "Dushanbe, Tajikistan",
+          "to": "Istanbul, Turkey"
+        }
+      ]
+  }

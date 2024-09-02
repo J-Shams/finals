@@ -1,0 +1,50 @@
+.registration-container {
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #00bfff; /* Лазурная рамка */
+    border-radius: 5px;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #008cba; /* Темно-лазурная рамка при фокусе */
+  }
+  
+  .register-button {
+    background-color: #008cba; /* Лазурная кнопка */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #008cba; /* Темно-лазурный при наведении */
+  }
+  
+  .login-button {
+    background-color: transparent;
+    color: #03779e; /* Лазурный текст */
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+  }
