@@ -8,7 +8,7 @@ import Product from './pages/product/product';
 import FlightDetails from './pages/FlightDetails/FlightDetails';
 import LoginPage from './LoginPage';
 import AuthCheck from './utils/AuthCheck';
-imporfrom '../src/utils/ProtectedRout';
+import Protectedroute from '../src/utils/ProtectedRout';
 import Registration from './registerPage';
 import One from './pages/one/one';
 import Two from './pages/two/two';
@@ -25,8 +25,8 @@ const App = () => {
   return (
     <Router>
       <Routes>
-      <Route path="/login" element={<AuthCheck><LoginPage /></AuthCheck>} />
-      <Route path="/register" element={<AuthCheck><Registration/></AuthCheck>} />
+      {/* <Route path="/login" element={<AuthCheck><LoginPage /></AuthCheck>} /> */}
+      {/* <Route path="/register" element={<AuthCheck><Registration/></AuthCheck>} /> */}
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path='/home' element={<Home />} />
