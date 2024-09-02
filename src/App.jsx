@@ -28,8 +28,8 @@ const App = () => {
       <Route path="/login" element={<AuthCheck><LoginPage /></AuthCheck>} />
       <Route path="/register" element={<AuthCheck><Registration/></AuthCheck>} />
         <Route path="/" element={<Layout />}>
-          <Route index element={<ProtectedRoute><Home /></ProtectedRoute>} />
-          <Route path='/home' element={<ProtectedRoute><Home /></ProtectedRoute>} />
+          <Route index element={<Home />} />
+          <Route path='/home' element={<Home />} />
           <Route path='/product' element={<ProtectedRoute><Product /></ProtectedRoute>} />
           <Route path="/about" element={<ProtectedRoute><About /></ProtectedRoute>} />
           <Route path="/news" element={<ProtectedRoute><News /></ProtectedRoute>} />
