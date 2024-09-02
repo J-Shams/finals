@@ -8,7 +8,7 @@ import Product from './pages/product/product';
 import FlightDetails from './pages/FlightDetails/FlightDetails';
 import LoginPage from './LoginPage';
 import AuthCheck from './utils/AuthCheck';
-import ProtectedRoute from '../src/utils/ProtectedRout';
+imporfrom '../src/utils/ProtectedRout';
 import Registration from './registerPage';
 import One from './pages/one/one';
 import Two from './pages/two/two';
@@ -30,20 +30,20 @@ const App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path='/home' element={<Home />} />
-          <Route path='/product' element={<ProtectedRoute><Product /></ProtectedRoute>} />
-          <Route path="/about" element={<ProtectedRoute><About /></ProtectedRoute>} />
-          <Route path="/news" element={<ProtectedRoute><News /></ProtectedRoute>} />
-          <Route path="/flightdetails" element={<ProtectedRoute><FlightDetails /></ProtectedRoute>} />
-          <Route path='/one' element={<ProtectedRoute><One/></ProtectedRoute>}/>
-          <Route path='/two' element={<ProtectedRoute><Two/></ProtectedRoute>}/>
-          <Route path='/three' element={<ProtectedRoute><Three/></ProtectedRoute>}/>
-          <Route path='/four' element={<ProtectedRoute><Four/></ProtectedRoute>}/>
-          <Route path='/five' element={<ProtectedRoute><Five/></ProtectedRoute>}/>
-          <Route path='/six' element={<ProtectedRoute><Six/></ProtectedRoute>}/>
-          <Route path='/seven' element={<ProtectedRoute><Seven/></ProtectedRoute>}/>
-          <Route path='/eight' element={<ProtectedRoute><Eight/></ProtectedRoute>}/>
-          <Route path='/nine' element={<ProtectedRoute><Nine/></ProtectedRoute>}/>
-          <Route path='/ten' element={<ProtectedRoute><Ten/></ProtectedRoute>}/>
+          <Route path='/product' element={<Product />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/flightdetails" element={<FlightDetails />} />
+          <Route path='/one' element={<One/>}/>
+          <Route path='/two' element={<Two/>}/>
+          <Route path='/three' element={<Three/>}/>
+          <Route path='/four' element={<Four/>}/>
+          <Route path='/five' element={<Five/>}/>
+          <Route path='/six' element={<Six/>}/>
+          <Route path='/seven' element={<Seven/>}/>
+          <Route path='/eight' element={<Eight/>}/>
+          <Route path='/nine' element={<Nine/>}/>
+          <Route path='/ten' element={<Ten/>}/>
         </Route>
       </Routes>
     </Router>
